@@ -1,0 +1,33 @@
+{
+  "name": "bmi",
+  "version": "1.0.0",
+  "description": "this is for Body Mass Index",
+  "main": "build/test/deployment/index.js",
+  "author": "prakash-tiwari <prakash-tiwari@outlook.com>",
+  "license": "UNLICENSED",
+  "files": [
+    "build/test/deployment/**/*"
+  ],
+  "scripts": {
+    "start": "npm run build && node ./build/test/deployment/index.js",
+    "build": "rimraf ./build/test/deployment && tsc --project ./tsconfig.json --outDir ./build/test/deployment",
+    "watch": "rimraf ./build/test/deployment && tsc --project ./tsconfig.json --outDir ./build/test/deployment --watch --sourceMap",
+    "pack": "yarn run build && yarn pack",
+    "test": "jest --coverage"
+  },
+  "keywords": [
+    "bmi"
+  ],
+  "jest": {
+    "verbose": true
+  },
+  "dependencies": {
+    "@types/node": "^15.0.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "typescript": "^4.2.4"
+  }
+}

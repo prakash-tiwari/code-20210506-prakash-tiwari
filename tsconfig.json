@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+      "target": "ES5",
+      "resolveJsonModule": true,
+      "lib": [
+          "ES2020.Promise"
+      ]
+  },
+  "include": [
+      "index.ts",
+      "src/**/*",
+      "src/**/*.json"
+  ]
+}

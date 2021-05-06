@@ -11,3 +11,6 @@ To create the package/zip file
 
 **npm run build:**
 To create the build
+
+**npm run test:**
+To check the code coverage
