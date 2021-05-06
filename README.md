@@ -1,16 +1,22 @@
 # code-20210506-prakash-tiwari
 
+**Commands to run this code in your system:**
+- _npm install_
+- _npm run start_
+
+**All Supported Commands**
+
 **npm install:**
-To install the packages
+_To install the packages_
 
 **npm run start:**
-To run the project
+_To run the project_
 
 **npm run pack:**
-To create the package/zip file
+_To create the package/zip file_
 
 **npm run build:**
-To create the build
+_To create the build_
 
 **npm run test:**
 To check the code coverage
