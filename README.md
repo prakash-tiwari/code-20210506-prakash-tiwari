@@ -5,3 +5,9 @@ To install the packages
 
 **npm run start :**
 To run the project
+
+**npm run pack :**
+To create the package/zip file
+
+**npm run build :**
+To create the build
